@@ -3,9 +3,10 @@
 
   <head>
     <link href="https://vjs.zencdn.net/7.6.5/video-js.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/main.css">
   </head>
 
-  <body><br>
+  <body style="padding:50px"><br>
     <p>original</p>
     <video id='my-video' class='video-js vjs-big-play-centered' controls="controls" preload='auto' width='640' height='400' poster='' data-setup='{"playbackRates": [1, 1.5, 2]}'>
       <source src="/static/video/input/{{ filename }}" type="video/mp4">
@@ -22,12 +23,9 @@
         <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
       </p>
     </video><br>
-    <p>Metrics:</p>
+     <p>Metrics:</p>
     <div id="chart_div"></div><br>
-    <form>
-      <button type="submit" formaction="/download">Download</button>
-
-    </form>
+    
     
 
     <script src='https://vjs.zencdn.net/7.6.5/video.js'></script>

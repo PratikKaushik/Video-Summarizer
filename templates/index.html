@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ViS</title>
+  <title>CViS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,9 +30,9 @@
           <li class="l-section section section--is-active">
             <div class="intro">
               <div class="intro--banner">
-                <h1>Video<br>Summarization<br>(ViS)</h1>
+                <h1>CCTV Video<br>Summarization<br>(CViS)</h1>
 
-                <button class="cta">Try it
+                <button class="cta btnStyle">Try it
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                   <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
                     <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
@@ -42,19 +42,19 @@
                 </button>
                 <img src="static/img/intro.png" width='550' height = '500'alt="Welcome">
               </div>
-              <center>
+             <!-- <center>
                   <h3>Metiew &amp; Smith</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-              </center>
+              </center>-->
             </div>
           </li>
           <li class="l-section section">
           <div class="about" id='hola'>
               <div class="about--banner">
                 <h2>Try<br>to upload<br>a video</h2>
-                    <form method="post" enctype="multipart/form-data">
+                    <form method="post" enctype="multipart/form-data" name="myForm" onsubmit="return uploadHandler()">
                       <input type="file" name='file'>
-                      <input type="submit" value="Upload">
+                      <input type="submit" name="Upload" class="btnStyle">
                     </form>
               </div>
             </div>
@@ -67,37 +67,36 @@
                   <li class="slider--item slider--item-left">
                     <a href="#0">
                       <div class="slider--item-image">
-                        <img src="static/img/work-victory.jpg" alt="Victory">
+                        <img src="static/img/panchakshar.jpg" alt="Victory">
                       </div>
-                      <p class="slider--item-title">Priyam Ladha</p>
-                      <p class="slider--item-description">E17CSE</p>
+                      <p class="slider--item-title"> Panchakshar</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
                     <a href="#0">
                       <div class="slider--item-image">
-                        <img src="static/img/work-metiew-smith.jpg" alt="Metiew and Smith">
+                        <img src="static/img/pratik.jpg" alt="Pratik">
                       </div>
-                      <p class="slider--item-title">Mragank Shekhar</p>
-                      <p class="slider--item-description">E17CSE144</p>
+                      <p class="slider--item-title">Pratik</p>
+                      
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
                     <a href="#0">
                       <div class="slider--item-image">
-                        <img src="static/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                        <img src="static/img/prachi.jpg" alt="Alex Nowak">
                       </div>
-                      <p class="slider--item-title">Ritwik Puri</p>
-                      <p class="slider--item-description">E17CSE193</p>
+                      <p class="slider--item-title">Prachi</p>
+                      
                     </a>
                   </li>
                   <li class="slider--item slider--item">
                     <a href="#0">
                       <div class="slider--item-image">
-                        <img src="static/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                        <img src="static/img/panchakshar.jpg" alt="Alex Nowak">
                       </div>
-                      <p class="slider--item-title">Nishant Phour</p>
-                      <p class="slider--item-description">E17CSE</p>
+                      <p class="slider--item-title">Panchakshar</p>
+                      
                     </a>
                   </li>
                 </ul>

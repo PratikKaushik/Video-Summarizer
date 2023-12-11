@@ -1091,3 +1091,15 @@
     $(".outer-nav").hasClass("is-vis") || (e.preventDefault(), t(e))
   }), n(), s(), r()
 });
+
+function uploadHandler(e){
+
+  var x = document.forms["myForm"]["file"];
+
+if(x.value.length>0) return true;
+else {
+  window.alert("Please upload a video!");
+  return false;
+}
+
+}
